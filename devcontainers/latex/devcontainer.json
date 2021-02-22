@@ -1,0 +1,8 @@
+{
+	"name": "LaTex",
+	"dockerFile": "./Dockerfile",
+	"extensions": [
+        "james-yu.latex-workshop"
+	],
+	"remoteUser": "vscode"
+}
