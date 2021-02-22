@@ -1,0 +1,30 @@
+{
+	"name": "Embedded development",
+	"dockerFile": "./Dockerfile",
+	"runArgs": [
+		"--cap-add=SYS_PTRACE",
+		"--security-opt",
+		"seccomp=unconfined",
+		"--privileged",
+		"--volume",
+		"/dev/bus/usb:/dev/bus/usb"
+	],
+	"extensions": [
+		"ms-vscode.cpptools",
+		"xaver.clang-format",
+		"twxs.cmake",
+		"ms-vscode.cmake-tools",
+		"marus25.cortex-debug",
+		"ms-python.python",
+		"coenraads.bracket-pair-colorizer-2",
+		"mads-hartmann.bash-ide-vscode",
+		"eamodio.gitlens",
+		"shd101wyy.markdown-preview-enhanced",
+		"davidanson.vscode-markdownlint",
+		"foxundermoon.shell-format",
+		"gruntfuggly.todo-tree",
+		"visualstudioexptteam.vscodeintellicode",
+		"redhat.vscode-yaml"
+	],
+	"remoteUser": "vscode"
+}
